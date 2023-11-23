@@ -1,0 +1,35 @@
+@import url("https://fonts.cdnfonts.com/css/star-wars");
+
+body {
+  background-image: url(STScI-JADES_crop-780x470.png);
+}
+
+main {
+  font-family: "Star Wars", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  line-height: 2rem;
+  letter-spacing: 0.15rem;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  overflow: hidden;
+  transform: perspective(90px) rotate3d(1, 0, 0, 20deg) translateY(450px);
+  transition: all 100s;
+}
+
+.start {
+  transform: perspective(90px) rotate3d(1, 0, 0, 20deg) translateY(-600px);
+}
+span {
+  font-size: 2rem;
+}
+p {
+  text-align: center;
+}
